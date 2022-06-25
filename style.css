@@ -1,0 +1,237 @@
+* {
+    font-family: "Airstream";
+    margin: 0px;
+    cursor: pointer;
+
+}
+
+@font-face {
+    font-family: "Airstream";
+    src: url("Airstream.ttf") format("ttf");
+}
+
+
+
+body {
+    height: 100vh;
+    background: url(pexels-rachel-claire-6123302.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+h2 {
+    font-size: 5em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 150px;
+    text-transform: uppercase;
+    margin-left: 33px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 600px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+
+}
+
+.card .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+}
+
+
+
+.card .content .picture {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+
+}
+
+
+.card .content .picture img {
+    width: 100%;
+    height: 100%;
+    clip-path: ellipse(50% 50%);
+}
+
+.card .content h1,
+.card .content p,
+.card .content a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.card .content a {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    background: linear-gradient(to top, #f00000, #dc281e);
+    border-radius: 15px;
+    width: 12em;
+    padding: 8px 8px;
+    font-weight: bold;
+    margin-top: 40px;
+    box-shadow: 0 0 16px 4px;
+}
+
+/* item gauche */
+
+.all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    height: 72%;
+    margin: 0 200px;
+}
+
+.cardleft {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0 auto;
+    height: 600px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+.cardleft .contentleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 0px 25px;
+
+}
+
+.cardleft .contentleft p,
+.cardleft .contentleft a,
+.cardleft .contentleft h1 {
+    color: white;
+    text-align: center;
+}
+
+.cardleft .contentleft .pictureleft {
+    margin-bottom: 2em;
+}
+
+
+.cardleft .contentleft .pictureleft img {
+    clip-path: ellipse(50% 50%);
+    width: 100%;
+    height: 100%;
+}
+
+.cardleft .contentleft a {
+    font-size: 2.0em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 40px;
+    width: 291px;
+    background-color: red;
+    border-radius: 50px;
+    box-shadow: 0 0 16px 4px;
+
+}
+
+.cardright {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0 auto;
+    height: 600px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+}
+
+.cardright .contentright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 0px 25px;
+
+}
+
+.cardright .contentright p,
+.cardright .contentright a,
+.cardright .contentright h1 {
+    color: white;
+    text-align: center;
+}
+
+.cardright .contentright .pictureright {
+    margin-bottom: 2em;
+}
+
+
+.cardright .contentright .pictureright img {
+    clip-path: ellipse(50% 50%);
+    width: 100%;
+    height: 100%;
+}
+
+.cardright .contentright a {
+    font-size: 2.0em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 40px;
+    width: 291px;
+    background-color: red;
+    border-radius: 50px;
+    box-shadow: 0 0 16px 4px;
+
+}
+
+.card:nth-child(1) {
+    order: 1;
+
+}
+
+.cardleft:nth-child(2) {
+    order: 2;
+
+}
+
+.cardright:nth-child(3) {
+
+    order: 3;
+
+}

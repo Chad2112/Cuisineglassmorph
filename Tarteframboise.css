@@ -1,0 +1,79 @@
+html {
+    height: 100%;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 4em;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 6px 4px rgba(63, 63, 63, 0.425)
+}
+
+body {
+    background: url(TarteFramboise.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 8px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    color: #f78e8e;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    color: #da6161;
+    font-weight: bold;
+}
+
+
+li {
+    font-size: 1.5em;
+    color: #ffffff;
+
+}
+
+.titrecreme,
+.titrepate {
+    font-size: 2em;
+    color: rgb(158, 158, 255);
+    font-weight: bold;
+    font-style: italic;
+    list-style: none;
+}
+
+#conteneur {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 25% 0px 25%;
+}
+
+#etapesconteneur {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 25% 0px 25%;
+}
+
+
+
+
+.Creme,
+.Etapes {
+    text-align: center;
+    list-style: none;
+}
+
+.Pate,
+.Etapespate {
+    text-align: center;
+    list-style: none;
+
+}

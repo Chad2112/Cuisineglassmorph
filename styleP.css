@@ -1,0 +1,45 @@
+ * {
+     margin: 0%;
+     font-family: Arial, Helvetica, sans-serif;
+
+
+ }
+
+ body {
+     background: url(pexels-pineapple-supply-co-189266.jpg);
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ h1 {
+     text-align: center;
+     margin: 2em 0 2em 0;
+ }
+
+ .all {
+
+     display: flex;
+     justify-content: space-between;
+     align-content: space-between;
+     margin: 0 250px;
+
+
+
+ }
+
+ .tarte ul li {
+     text-align: center;
+     font-size: 2em;
+ }
+
+ .creme ul li {
+     text-align: center;
+     font-size: 2em;
+ }
+
+ .gateau ul li {
+     text-align: center;
+     font-size: 2em;
+ }
